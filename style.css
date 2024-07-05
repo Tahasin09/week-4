@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
+    font-family: 'Lato';
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.profile{
+    height: 600px;
+    width: 400px;
+    background-color: rgb(231, 231, 226);
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+
+.profile .image{
+    margin-top: -20px;
+    text-align: center;
+}
+ .profile .image img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    
+}
+.profile .text{
+    text-align: center;
+    line-height: 5px;
+    margin-bottom: 40px;
+}
+.profile .text h2{
+    color: rgb(37, 36, 36);
+    font-weight: bold;
+}
+.profile .text p{
+    font-weight: bold;
+    color:  rgb(83, 80, 80);
+}
+.profile .description{
+   padding: 0 40px 20px 40px;
+   text-align: center;
+   font-weight: bold;
+   color: rgb(83, 80, 80);
+}
+
+.profile .social{
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   text-align: center;
+   line-height: 1px;
+   margin-bottom: 40px;
+}
+.number{
+    font-size: 20px;
+}
+.name{
+    font-weight: bold;
+}
+
+/* .profile .social .one{
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+} */
+.profile .buttons{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+}
+.profile .buttons .btn1{
+    background-color:   rgb(83, 80, 80);
+    color: white;
+    font-size: 1rem;
+    padding: 9px 40px 9px 40px;
+    border:none;
+    border-radius: 5px;
+}
+.profile .buttons .btn2{
+    background-color: transparent;
+    color: rgb(56, 51, 51);
+    font-size: 1rem;
+    padding: 9px 40px 9px 40px;
+    border:black 2px solid;
+    border-radius: 5px;
+}
+.profile{
+    box-shadow: rgba(52, 52, 56, 0.2) 0px 7px 29px 0px;
+}
+
+.profile .title{
+    background-color: rgb(83, 80, 80);
+    width: 40px;
+    margin-left: 20px;
+    color:white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+.profile .buttons .btn1:hover{
+    background-color:  rgb(25, 24, 24);
+    color: white;
+    border:none;
+}
+.profile .buttons .btn2:hover{
+    background-color:  rgb(83, 80, 80);
+    color:white;
+    border-color:transparent ;
+}
