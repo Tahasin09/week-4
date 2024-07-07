@@ -7,14 +7,13 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
 }
 .profile{
     height: 600px;
     width: 400px;
     background-color: rgb(231, 231, 226);
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
+    border-radius: 10px;
 
 }
 
